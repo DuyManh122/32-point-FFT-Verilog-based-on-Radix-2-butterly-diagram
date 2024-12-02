@@ -16,7 +16,7 @@ module adder3
 		if (!rst)
 			signed_output <= 32'b0;
 		else
-			signed_output <= A + B + C;
+			signed_output <= $signed(A) + $signed(B) + $signed(C);
 	end
 
 endmodule

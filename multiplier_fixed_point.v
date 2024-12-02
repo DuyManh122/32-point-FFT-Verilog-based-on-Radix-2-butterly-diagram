@@ -20,7 +20,7 @@ module multiplier_fixed_point
 			fixed_point_scale_product <= 32'b0;
 		end
 		else begin
-			product_temp <= A * B;
+			product_temp <= $signed(A) * $signed(B);
 			fixed_point_scale_product <= product_temp[47:16];
 		end
 	end

@@ -141,7 +141,7 @@ module Butterfly2
         .in(out6_m),
         .out(out6_m_neg)
     );
-    get_negative neg4
+    negative neg4
     (
 		.clk(clk),
 		.rst(rst),

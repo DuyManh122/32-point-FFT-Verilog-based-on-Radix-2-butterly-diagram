@@ -3,20 +3,19 @@ module negative
 (
 	input rst,
 	input clk,
-	input 	[31:0] input_value,
-	output 	[31:0] output_value
+	input 	[31:0] in,
+	output 	[31:0] out
 );
 	reg [31:0] control;
 	
-	assign output_value = control;
+	assign out = control;
 	
 	always @(negedge clk or negedge rst) begin
 		if (!rst) begin
 			control <= 0;
 		end 
 		else begin
-			control <= ~input_value; //reverse the bit order
-			control <= control + 1;  //add 1
+			control <= ~in + 1'b1; 			//reverse the bit order
 		end
 	end
 endmodule

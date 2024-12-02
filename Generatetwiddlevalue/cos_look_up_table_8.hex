@@ -1,0 +1,8 @@
+assign twiddle_cos[0] = {32'h00010000};	//1.0
+assign twiddle_cos[1] = {32'h0000b505};	//0.7071067811865476
+assign twiddle_cos[2] = {32'h00000000};	//6.123233995736766e-17
+assign twiddle_cos[3] = {32'hffff4afb};	//-0.7071067811865475
+assign twiddle_cos[4] = {32'hffff0000};	//-1.0
+assign twiddle_cos[5] = {32'hffff4afb};	//-0.7071067811865477
+assign twiddle_cos[6] = {32'h00000000};	//-1.8369701987210297e-16
+assign twiddle_cos[7] = {32'h0000b505};	//0.7071067811865474
