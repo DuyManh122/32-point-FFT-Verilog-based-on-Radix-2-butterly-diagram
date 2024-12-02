@@ -1,0 +1,204 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/HKI_NAM4/SOC_DESIGN/FIR
+vadder3
+Z0 !s110 1733121543
+!i10b 1
+!s100 aNF7VJ=]9W<H5Lj_F@?[?0
+IElbVOX<mOlHzoSfokj[^A3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/HKI_NAM4/TH_SOC/Personal_Project_Main
+w1733103724
+8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/adder3num.v
+FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/adder3num.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1733121543.000000
+!s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/adder3num.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/adder3num.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vButterfly16
+R0
+!i10b 1
+!s100 ^i0V`ECRCW_B39;A;7TJ22
+IN0[oVR<<XQ8lC>USl1fkA3
+R1
+R2
+w1733117730
+8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v
+FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v|
+!i113 1
+R5
+R6
+n@butterfly16
+vButterfly2
+R0
+!i10b 1
+!s100 mAE@A15l_gBE?K<8dP2_i1
+I0BAM@0KlXAJjKCM_m4N`52
+R1
+R2
+w1733106819
+8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly2.v
+FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly2.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly2.v|
+!i113 1
+R5
+R6
+n@butterfly2
+vButterfly32
+R0
+!i10b 1
+!s100 >TGC7To]IP=AYXjUL=PXL2
+IS=S;QfY3EQ6Sdab^BJTJK3
+R1
+R2
+w1733121536
+8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v
+FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v|
+!i113 1
+R5
+R6
+n@butterfly32
+vButterfly4
+R0
+!i10b 1
+!s100 NGmn>DFZ9P]h2AD06H]^C0
+IKh5G@DK31Fa@2m@3KnNkS1
+R1
+R2
+w1733108806
+8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly4.v
+FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly4.v|
+!i113 1
+R5
+R6
+n@butterfly4
+vButterfly8
+R0
+!i10b 1
+!s100 Y5FDnY;^KXE7XT<m[iWjj3
+I_0djVgc7]lN?>U80Oja7^2
+R1
+R2
+w1733115785
+8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly8.v
+FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly8.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly8.v|
+!i113 1
+R5
+R6
+n@butterfly8
+vfft_32point
+!s110 1733121542
+!i10b 1
+!s100 >OI]B=cF`U?jMZAkRHiaG1
+I]Ga@nFi1Hl9jS90AgM0[<0
+R1
+R2
+w1733106916
+8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT.v
+FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1733121542.000000
+!s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT.v|
+!i113 1
+R5
+R6
+vmultiplier_fixed_point
+R0
+!i10b 1
+!s100 ^`WVDVW`<bSQ>^NnRDRXm1
+I]Wh3dgWHm0B]Y`m6K7b=C2
+R1
+R2
+w1733103268
+8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/multiplier_fixed_point.v
+FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/multiplier_fixed_point.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/multiplier_fixed_point.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/multiplier_fixed_point.v|
+!i113 1
+R5
+R6
+vnegative
+R0
+!i10b 1
+!s100 `]<9KG0P>7TXH2ck7GL`;0
+IWf<gzE^QgE;mLe@6K][mC3
+R1
+R2
+w1733103942
+8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/get_negative.v
+FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/get_negative.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/get_negative.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/get_negative.v|
+!i113 1
+R5
+R6
