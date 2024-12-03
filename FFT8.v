@@ -214,7 +214,7 @@ module fft_8point (
  
 	
 	//============================== Stage 3 =========================
-	//output for stage 2
+	//output for stage 3
 	//real part
 	wire [31:0] stage3_real_out[0:7];
 	

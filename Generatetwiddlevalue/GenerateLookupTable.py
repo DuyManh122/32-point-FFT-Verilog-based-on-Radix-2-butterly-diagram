@@ -18,8 +18,8 @@ def float_to_fixed(value, integer_bits =16, fractional_bits=16):
 
 
 def generate_lut(num = 32):
-    sin_file = open("sin_look_up_table_8.hex", "w") 
-    cos_file = open("cos_look_up_table_8.hex", "w")
+    sin_file = open("Generatetwiddlevalue/sin_look_up_table_32.hex", "w") 
+    cos_file = open("Generatetwiddlevalue/cos_look_up_table_32.hex", "w")
 
     for i in range(num):
         angle = (i / num) * 2 * math.pi  
@@ -40,6 +40,6 @@ print(f"Fixed-point value of {float_val}: {{32'h{fixed_val:08x}}}")
 
 
 
-generate_lut(8)
+generate_lut(32)
 
 

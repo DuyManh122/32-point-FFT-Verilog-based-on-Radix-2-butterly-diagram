@@ -1,0 +1,16 @@
+assign twiddle_sin[0] = {32'h00000000};	//0.0
+assign twiddle_sin[1] = {32'h000061f8};	//0.3826834323650898
+assign twiddle_sin[2] = {32'h0000b505};	//0.7071067811865476
+assign twiddle_sin[3] = {32'h0000ec83};	//0.9238795325112867
+assign twiddle_sin[4] = {32'h00010000};	//1.0
+assign twiddle_sin[5] = {32'h0000ec83};	//0.9238795325112867
+assign twiddle_sin[6] = {32'h0000b505};	//0.7071067811865476
+assign twiddle_sin[7] = {32'h000061f8};	//0.3826834323650899
+assign twiddle_sin[8] = {32'h00000000};	//1.2246467991473532e-16
+assign twiddle_sin[9] = {32'hffff9e08};	//-0.38268343236508967
+assign twiddle_sin[10] = {32'hffff4afb};	//-0.7071067811865475
+assign twiddle_sin[11] = {32'hffff137d};	//-0.9238795325112865
+assign twiddle_sin[12] = {32'hffff0000};	//-1.0
+assign twiddle_sin[13] = {32'hffff137d};	//-0.9238795325112866
+assign twiddle_sin[14] = {32'hffff4afb};	//-0.7071067811865477
+assign twiddle_sin[15] = {32'hffff9e08};	//-0.3826834323650904
