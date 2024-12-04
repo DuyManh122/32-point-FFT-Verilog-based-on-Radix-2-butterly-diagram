@@ -462,7 +462,7 @@ Butterfly16 But16_1
 	.twiddle6_r(twiddle14_r),
 	.twiddle6_i(twiddle14_i),
 	.twiddle7_r(twiddle15_r),
-	.twiddle7_i(twiddle16_i),
+	.twiddle7_i(twiddle15_i),
 	.out0_r(out8_r),
 	.out0_i(out8_i),
 	.out1_r(out9_r),

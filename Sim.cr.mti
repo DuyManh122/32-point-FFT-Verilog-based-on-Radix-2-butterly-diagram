@@ -1,58 +1,9 @@
-D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly8.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly8.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Butterfly8
-
-Top level modules:
-	Butterfly8
-
-} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly4.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly4.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Butterfly4
-
-Top level modules:
-	Butterfly4
-
-} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly2.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly2.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Butterfly2
-
-Top level modules:
-	Butterfly2
-
-} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT8_tb.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT8_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module fft_8points_tb
-
-Top level modules:
-	fft_8points_tb
-
-} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Butterfly16
-
-Top level modules:
-	Butterfly16
-
-} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module Butterfly32
-
-Top level modules:
-	Butterfly32
-
-} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/get_negative.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/get_negative.v
+D:/HKI_NAM4/TH_SOC/Personal_Project_Main/get_negative.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/get_negative.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module negative
 
 Top level modules:
 	negative
-
-} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/multiplier_fixed_point.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/multiplier_fixed_point.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module multiplier_fixed_point
-
-Top level modules:
-	multiplier_fixed_point
 
 } {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/adder3num.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/adder3num.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -61,11 +12,81 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	adder3
 
+} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft_32point
+
+Top level modules:
+	fft_32point
+
+} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT8_tb.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT8_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft_8points_tb
+
+Top level modules:
+	fft_8points_tb
+
+} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly4.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Butterfly4
+
+Top level modules:
+	Butterfly4
+
+} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Butterfly16
+
+Top level modules:
+	Butterfly16
+
+} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT16.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT16.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft_16point
+
+Top level modules:
+	fft_16point
+
 } {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT8.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT8.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module fft_8point
 
 Top level modules:
 	fft_8point
+
+} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly2.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Butterfly2
+
+Top level modules:
+	Butterfly2
+
+} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly8.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Butterfly8
+
+Top level modules:
+	Butterfly8
+
+} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32_tb.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fft_32points_tb
+
+Top level modules:
+	fft_32points_tb
+
+} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Butterfly32
+
+Top level modules:
+	Butterfly32
+
+} {} {}} D:/HKI_NAM4/TH_SOC/Personal_Project_Main/multiplier_fixed_point.v {1 {vlog -work work -stats=none D:/HKI_NAM4/TH_SOC/Personal_Project_Main/multiplier_fixed_point.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module multiplier_fixed_point
+
+Top level modules:
+	multiplier_fixed_point
 
 } {} {}}

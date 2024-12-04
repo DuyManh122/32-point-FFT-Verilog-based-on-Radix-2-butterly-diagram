@@ -9,7 +9,7 @@ z2
 cModel Technology
 dD:/HKI_NAM4/SOC_DESIGN/FIR
 vadder3
-Z0 !s110 1733245746
+Z0 !s110 1733294694
 !i10b 1
 !s100 9TZ@I5h`:YOO00`k;6KMl3
 IB78<NoAQ8l9<@:c:h?Xd?1
@@ -23,20 +23,20 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1733245746.000000
+Z4 !s108 1733294694.000000
 !s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/adder3num.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/adder3num.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
 vButterfly16
-R0
+Z7 !s110 1733294695
 !i10b 1
-!s100 ^i0V`ECRCW_B39;A;7TJ22
-IN0[oVR<<XQ8lC>USl1fkA3
+!s100 aaRH?3U7XI@CXh:_MdZBa2
+I@;hN;08=m1?;7FWG9lI7Q0
 R1
 R2
-w1733117730
+w1733294682
 8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v
 FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v
 L0 1
@@ -44,7 +44,7 @@ R3
 r1
 !s85 0
 31
-R4
+Z8 !s108 1733294695.000000
 !s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Buterrfly16.v|
 !i113 1
@@ -74,13 +74,13 @@ R5
 R6
 n@butterfly2
 vButterfly32
-Z7 !s110 1733245747
+R7
 !i10b 1
-!s100 >TGC7To]IP=AYXjUL=PXL2
-IS=S;QfY3EQ6Sdab^BJTJK3
+!s100 K;J6PJBZBUKjYC76gY`jL2
+IHZcG@=kB5`9ZfkIzcCDJl3
 R1
 R2
-w1733121536
+w1733248594
 8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v
 FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v
 L0 1
@@ -88,7 +88,7 @@ R3
 r1
 !s85 0
 31
-Z8 !s108 1733245747.000000
+R8
 !s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly32.v|
 !i113 1
@@ -96,7 +96,7 @@ R5
 R6
 n@butterfly32
 vButterfly4
-R0
+R7
 !i10b 1
 !s100 NGmn>DFZ9P]h2AD06H]^C0
 IKh5G@DK31Fa@2m@3KnNkS1
@@ -118,7 +118,7 @@ R5
 R6
 n@butterfly4
 vButterfly8
-R0
+R7
 !i10b 1
 !s100 `^[]@6UIoNz[Gb>]gcT0[3
 ITmhfaAURSBUT9o?4]YPGY0
@@ -132,7 +132,7 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly8.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Butterfly8.v|
 !i113 1
@@ -163,11 +163,11 @@ R6
 vfft_32point
 R7
 !i10b 1
-!s100 GmlY`2E_dS2GhY=CJa=::2
-I=W=Pc;G<fkPcSQ6kF`zXG3
+!s100 gT71SRSAPBR>E[^Y:gGhN2
+IW1nDTmfHB^?am4T^bX<=R0
 R1
 R2
-w1733245738
+w1733285642
 8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32.v
 FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32.v
 L0 1
@@ -178,6 +178,27 @@ r1
 R8
 !s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32.v|
+!i113 1
+R5
+R6
+vfft_32points_tb
+R7
+!i10b 1
+!s100 l0ChkUl:TOUB5f`>NMFlW1
+Ib9PV]l;1AgUSYTO8`VPHl2
+R1
+R2
+w1733292623
+8D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32_tb.v
+FD:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/HKI_NAM4/TH_SOC/Personal_Project_Main/FFT32_tb.v|
 !i113 1
 R5
 R6

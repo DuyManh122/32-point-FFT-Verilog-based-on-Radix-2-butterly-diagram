@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 from scipy.fft import fft
 
 # change it
-file_path = "D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Testbench/result_in_verilog.txt"
-
-fft_size = 8
+file_path = "D:/HKI_NAM4/TH_SOC/Personal_Project_Main/Testbench/result_in_verilog_fft32.txt"
+file_path_1 = "Testbench/float_value_to_compare.txt"
+fft_size = 32
 
 def magnitude (a, b):
     squared_a = a * a
@@ -44,9 +44,10 @@ print(f"Float value of {{32'h{fixed_val:08x}}}: {float_val}")
 
 
 complex_actual_value = []
+fft_input = []
 
 modelsim_outfile = open(file_path, "r")
-
+float_data = open(file_path_1, "r")
 
 for line in modelsim_outfile:
     val_string = line.strip()
@@ -54,13 +55,19 @@ for line in modelsim_outfile:
     val_float = fixed_to_float(val_int)
     complex_actual_value.append(val_float)
 
+for line in float_data:
+    val_string = line.strip()
+    val_float = float(val_string)
+    fft_input.append(val_float)
+
+
 print("\nFFT Output:\n")
 for value in complex_actual_value:
     print(value)
 
 print("\nFFT Expected:\n")
-complex_expected_value = fft([1,1,1,0,1,0,0,0])
-print(complex_actual_value)
+complex_expected_value = fft(fft_input)
+print(complex_expected_value)
 
 # draw a line grapt to compare
 power_actual_data = []
@@ -72,13 +79,13 @@ for i in range (0, fft_size * 2, 2):
 power_expeced_data = abs(complex_expected_value)
 
 
-plt.plot(list(range(8)) , power_actual_data, label = "actual data", marker = 'o')
-plt.plot(list(range(8)) , power_expeced_data, label = "expected data", marker = 'x')
+plt.plot(list(range(fft_size)) , power_actual_data, label = "actual data", marker = 'o')
+plt.plot(list(range(fft_size)) , power_expeced_data, label = "expected data", marker = 'x')
 
 plt.xlabel('Frequency (Hz)')
 plt.ylabel('Magnitude')
 # giving a title to my graph
-plt.title('FFT 8 point compare')
+plt.title('FFT 32 point compare')
 plt.legend()
 plt.show()
 modelsim_outfile.close()
